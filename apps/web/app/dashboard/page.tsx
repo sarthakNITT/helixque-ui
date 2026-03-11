@@ -6,7 +6,7 @@ export default function Page() {
   const { activeSection, activeSubSection } = useNavigation();
 
   // Set default navigation on mount
-  useNavigation;
+  useNavigation; // eslint-disable-line no-unused-expressions
 
   return (
     <div>
